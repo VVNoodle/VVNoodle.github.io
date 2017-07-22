@@ -1,0 +1,91 @@
+html, body {
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+    background-color: black;
+ }
+
+ h1 {
+    font-family: 'Raleway', sans-serif;
+ }
+
+ p {
+     font-family: 'Crimson Text', serif;
+ }
+
+.edit {
+    border-style: solid; 
+    border-width: 1px;
+    padding: 1px; 
+    border-color: red; 
+}
+
+header {
+    background-color: #20A4F3;
+}
+
+#small-header {
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#intro {
+    display: flex;
+    background-color: #2EC4B6;
+    justify-content: center;
+}
+
+#profile-pic {
+    width: 30%;
+}
+
+#background-info {
+    width: 50%;
+}
+ 
+.featured-work {
+    margin: 0;
+    background-color: #FF3366; 
+}
+
+.centerize {
+    display: flex;
+    justify-content: center;
+}
+
+.work-box {
+    width: 40%;
+    flex-direction: column;
+}
+
+.work {
+    background-color: #F6F7F8;
+}
+
+#resume-container {
+    text-align: center;
+    background-color: #A0E4DD;
+}
+
+#resume {
+    width: 80%;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: lightsteelblue;
+}
