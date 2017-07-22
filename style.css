@@ -2,6 +2,15 @@ html, body {
     margin: 0px;
     padding: 10px;
     border: 0px;
+    background-color: black;
+ }
+
+ h1 {
+    font-family: 'Raleway', sans-serif;
+ }
+
+ p {
+     font-family: 'Crimson Text', serif;
  }
 
 .edit {
@@ -12,7 +21,11 @@ html, body {
 }
 
 header {
-    background-color: lightgoldenrodyellow;
+    background-color: #20A4F3;
+}
+
+#small-header {
+    
 }
 
 .container {
@@ -26,46 +39,53 @@ header {
 
 #intro {
     display: flex;
-    background-color: lightgray;
+    background-color: #2EC4B6;
     justify-content: center;
 }
 
 #profile-pic {
-    flex-grow: 1;
+    width: 30%;
 }
 
 #background-info {
-    flex-grow: 2;
+    width: 50%;
 }
  
 .featured-work {
     margin: 0;
-    background-color: lightcyan; 
+    background-color: #FF3366; 
 }
 
-.work-box {
-    display:flex;
-    width: 50%;
+.centerize {
+    display: flex;
     justify-content: center;
 }
 
+.work-box {
+    width: 40%;
+    flex-direction: column;
+}
+
 .work {
-    display: flex;
-    margin: 0 20%;
+    background-color: #F6F7F8;
+}
+
+#resume-container {
+    text-align: center;
+    background-color: #A0E4DD;
 }
 
 #resume {
-    text-align: center;
+    width: 80%;
 }
 
 #contact {
     display: flex;
     justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
 }
 
-#facebook {
-}
-
-#github {
-   
+footer {
+    background-color: lightsteelblue;
 }
