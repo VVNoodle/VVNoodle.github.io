@@ -1,2 +1,71 @@
-@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+html, body {
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+ }
 
+.edit {
+    border-style: solid; 
+    border-width: 1px;
+    padding: 1px; 
+    border-color: red; 
+}
+
+header {
+    background-color: lightgoldenrodyellow;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#intro {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+}
+
+#profile-pic {
+    flex-grow: 1;
+}
+
+#background-info {
+    flex-grow: 2;
+}
+ 
+.featured-work {
+    margin: 0;
+    background-color: lightcyan; 
+}
+
+.work-box {
+    display:flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.work {
+    display: flex;
+    margin: 0 20%;
+}
+
+#resume {
+    text-align: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+#facebook {
+}
+
+#github {
+   
+}
