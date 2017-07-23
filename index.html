@@ -6,14 +6,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="" href="style.css">
+    <link rel="stylesheet" type="" href="css/responsive.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans|Rubik" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <header class=" text-center">
-            <h1>Egan Bisma <small id="small-header">Front-End Developer</small></h1>
+        <div class="topnav">
+            <a href="#home">Home</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#resume">Resume</a>
+        </div>
+        <header class="centerize text-center">
+            <div class="edit raleway" id="name">
+                <h1 id="title">Egan Bisma <small id="small-header">Front-End Developer</small></h1>
+            </div>
         </header>
 
         <section id="intro" class="">
@@ -21,40 +29,45 @@
                 <img id="" src="" alt="Profile Pic">
             </article>
             <aside id="background-info" class="edit">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem alias consectetur harum ducimus aperiam
-                    aut, nostrum doloribus, soluta repellat perspiciatis, omnis rerum nulla sapiente eligendi qui dolor.
-                    Sint, expedita!</p>
+                <p>Hi! I'm a front-end developer looking to gain experiences through internships and junior position jobs
+                </p>
             </aside>
         </section>
 
         <section id="">
-            <h2 class="text-center featured-work">Portfolio</h2>
-            <div class="work centerize edit">
+            <div class="centerize" id="portfolio-container">
+                <div id="portfolio" class="edit">
+                    <h2 class="featured-work raleway">Portfolio</h2>
+                </div>
+            </div>
+            <div class="work centerize">
                 <div class="edit work-box centerize">
-                    <img class="edit" src="" alt="work_1" class="">
-                    <h3 class="edit">Chat App</h3>
+                    <img class="edit" id="work1" src="img/ChatApp.png" alt="work_1" class="">
+                    <h3 class="project-desc edit">Chat App</h3>
                 </div>
                 <div class="edit work-box centerize">
-                    <img src="" alt="work_2" class="edit">
-                    <h3 class="edit">Todo List</h3>
+                    <img src="img/fcc.png" alt="work_2" class="edit">
+                    <h3 class="project-desc edit">Free Code Camp Projects</h3>
                 </div>
             </div>
         </section>
 
-        <section class="centerize edit" id="resume-container">
-            <a href="" id="resume" class="edit">
-                <h2>Resume</h2>
-                <i class="fa fa-file-pdf-o"></i>
-            </a>
+        <section class="centerize" id="resume-container">
+            <div class="edit centerize" id="resume">
+                <a href="" class="edit" id="resume-button">
+                    <h2>Resume</h2>
+                    <i class="fa fa-file-pdf-o fa-5x"></i>
+                </a>
+            </div>
         </section>
 
-        <footer class="edit">
+        <footer class="">
             <div class="edit" id="contact">
-                <div class="edit"><a id="github" href=""><i class="fa fa-github fa-5x"></i></a></div>
-                <div class="edit"><a id="fcc" href=""><i class="fa fa-free-code-camp fa-5x"></i></a></div>
-                <div class="edit"><a id="linkedin" href=""><i class="fa fa-linkedin fa-5x"></i></a></div>
-                <div class="edit"><a id="youtube" href=""><i class="fa fa-youtube fa-5x"></i></a></div>
-                <div class="edit"><a id="facebook" href=""><i class="fa fa-facebook fa-5x"></i></a></div>
+                <div class="edit"><a id="github" href=""><i class="fa fa-github"></i></a></div>
+                <div class="edit"><a id="fcc" href=""><i class="fa fa-free-code-camp"></i></a></div>
+                <div class="edit"><a id="linkedin" href=""><i class="fa fa-linkedin"></i></a></div>
+                <div class="edit"><a id="youtube" href=""><i class="fa fa-youtube"></i></a></div>
+                <div class="edit"><a id="facebook" href=""><i class="fa fa-facebook"></i></a></div>
             </div>
         </footer>
 
