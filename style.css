@@ -21,14 +21,14 @@ html, body {
      max-width: 100%;
  }
 
-.edits {
+.edit {
     border-style: solid; 
     border-width: 1px;
     padding: 1px; 
     border-color: red; 
 }
 
-.topnav {
+/* .topnav {
     background-color: #333;
     overflow: hidden;
     font-family: 'Josefin Sans', sans-serif;
@@ -52,7 +52,7 @@ html, body {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
-}
+} */
 
 header {
     background-color: #20A4F3;
@@ -60,7 +60,7 @@ header {
 }
 
 #name {
-    width: 80%;
+    width: 80vw;
 }
 
 #title {
@@ -83,6 +83,7 @@ header {
 
 #intro {
     display: flex;
+    flex-wrap: wrap;
     background-color: #2EC4B6;
     justify-content: center;
     height: 80vh;
@@ -99,7 +100,7 @@ header {
 }
 
 #profile-pic {
-    width: 30%;
+    width: 30vw;
 }
 
 .project-desc {
@@ -109,9 +110,13 @@ header {
 }
 
 #background-info {
-    width: 50%;
+    width: 50vw;
     font-size: 3vw;
     text-align: justify;
+}
+
+#intro-next {
+    width: 80vw;
 }
  
 .featured-work {
