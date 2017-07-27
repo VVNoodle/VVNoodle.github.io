@@ -85,8 +85,17 @@ nav {
     grid-area: nav;
     background-color: grey;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+}
+
+.btn-nav {
+    width: 33%;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 4vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-style: solid;
+    border-color: darkgray;
+    border-top: 2px;
 }
 
 /* PORTFOLIO */
