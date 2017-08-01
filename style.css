@@ -15,17 +15,8 @@ body {
     background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
-h1 {
-    font-family: 'Mogra', cursive;
-    font-size: 7vw;
-}
-
-h2 {
-    font-family: 'Courier', serif;
-}
-
 h3 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', Verdana, cursive;
     font-size: 3em;
 }
 
@@ -66,7 +57,16 @@ header {
 }
 
 h1 {
-    width: 70%;
+    font-family: 'Mogra', Helvetica, cursive;
+    font-size: 7vw;
+    width: 100%;
+    text-align: center;
+    width: 54vw;
+}
+
+h2 {
+    font-family: 'Courier', serif;
+    font-size: 2vw;
 }
 
 /* PROFILE IMG */
@@ -96,6 +96,10 @@ nav {
     border-style: solid;
     border-color: darkgray;
     border-top: 2px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* PORTFOLIO */
