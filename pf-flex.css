@@ -1,0 +1,50 @@
+.pf-container {
+  display: flex;
+}
+
+.pf-content {
+  padding: 3vw;
+}
+
+.pf-grid-item {
+  margin-bottom: 1rem;
+}
+
+.pf-grid-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Small screens */
+@media only screen and (max-width: 900px) {
+  .pf-container {
+    flex-direction: column;
+  }
+
+  .pf-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    /* specifies the default alignment for items inside the flexible container */
+    align-items: center;
+
+    /* Alligns text */
+    text-align: center;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 901px) {
+  .pf-container {
+  }
+
+  /* sidebar occupies 35% of the view width */
+  .pf-sidebar {
+    flex: 35vw;
+  }
+
+  /* content occupies 65% of the view width */
+  .pf-content {
+    flex: 65vw;
+  }
+}

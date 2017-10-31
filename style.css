@@ -12,6 +12,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -24,6 +26,7 @@ a {
   /* 1 viewport unit = 1% of width of viewport 
   (if viewport is 100 pixels wide, 1vw = 1 pixel */
   padding: 5vw;
+  /* center text */
 }
 
 .pf-grid-item {
