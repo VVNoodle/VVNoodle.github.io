@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-  background-color: #3f7caa;
+  background: #3f7caa;
+  background: linear-gradient(#3f7caa, #78bae6); /* Standard syntax */
+   /* Standard syntax */
 }
 
 *,
@@ -30,12 +32,21 @@ p {
 }
 
 a {
-  color: inherit;
   text-decoration: none;
+  color: black;
+}
+
+hr {
+  border-color: black;  
 }
 
 .pf-sidebar {
-  background-color: #54a9a6;
+  background: #54a9a6;
+  background: linear-gradient(#89dbd7, #54a9a6); /* Standard syntax */
+  background: -webkit-linear-gradient(#89dbd7, #54a9a6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#89dbd7, #54a9a6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#89dbd7, #54a9a6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#89dbd7, #54a9a6); /* Standard syntax */
   /* 1 viewport unit = 1% of width of viewport 
   (if viewport is 100 pixels wide, 1vw = 1 pixel */
   padding: 5vw;
@@ -43,12 +54,19 @@ a {
 }
 
 .pf-grid-item {
-  background-color: #ffc600;
+  background: #ffc600;
+  background: linear-gradient(#f5c947, #ffc600); /* Standard syntax */
+  background: -webkit-linear-gradient(#f5c947, #ffc600); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f5c947, #ffc600); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f5c947, #ffc600); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f5c947, #ffc600); /* Standard syntax */
   padding: 3vw;
 }
 
 .pf-contact-item {
   background-color: #092327;
+  background: -webkit-linear-gradient(#092327, #0d353b); /* For Safari 5.1 to 6.0 */
+  
   color: white;
   text-align: center;
 }
