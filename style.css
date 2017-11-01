@@ -19,6 +19,7 @@ body {
 a {
   color: inherit;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .pf-sidebar {
@@ -32,4 +33,10 @@ a {
 .pf-grid-item {
   background-color: yellow;
   padding: 3vw;
+}
+
+.pf-contact-item {
+  background-color: black;
+  color: white;
+  text-align: center;
 }

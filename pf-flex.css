@@ -54,9 +54,19 @@
     /* by default, flex tries to cram all items into 1 row
      if no more space, we want the item to appear in new line */
     flex-wrap: wrap;
+    justify-content: space-between;
   }
   .pf-grid-item {
     width: 47%;
-    margin-right: 1rem;
+  }
+
+  .pf-contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .pf-contact-item {
+    width: 13vw;
   }
 }
