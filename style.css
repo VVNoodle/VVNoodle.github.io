@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #3f7caa;
 }
 
 *,
@@ -16,14 +17,25 @@ body {
   margin: 0;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+}
+
 a {
   color: inherit;
-  font-weight: bold;
   text-decoration: none;
 }
 
 .pf-sidebar {
-  background-color: gray;
+  background-color: #54a9a6;
   /* 1 viewport unit = 1% of width of viewport 
   (if viewport is 100 pixels wide, 1vw = 1 pixel */
   padding: 5vw;
@@ -31,16 +43,16 @@ a {
 }
 
 .pf-grid-item {
-  background-color: yellow;
+  background-color: #ffc600;
   padding: 3vw;
 }
 
 .pf-contact-item {
-  background-color: black;
+  background-color: #092327;
   color: white;
   text-align: center;
 }
 
 .fa {
-  color: white;
+  color: #00a9a5;
 }
