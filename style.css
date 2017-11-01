@@ -67,6 +67,12 @@ a {
   width: 50px;
 }
 
+#bananaslug {
+  margin-top: 10vh;
+  height: 200px;
+  width: 200px;
+}
+
 .materials {
   display: flex;
   flex-wrap: wrap;

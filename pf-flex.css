@@ -2,6 +2,12 @@
   display: flex;
 }
 
+.pf-sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .pf-content {
   padding: 3vw;
 }
