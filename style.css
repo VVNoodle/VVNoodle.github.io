@@ -56,3 +56,19 @@ a {
 .fa {
   color: #00a9a5;
 }
+
+#intro {
+  font-weight: 100;
+  font-size: 1.6rem;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.materials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
